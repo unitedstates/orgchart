@@ -1,0 +1,132 @@
+hhs:
+  name: Department of Health and Human Services
+  abbreviation: HHS
+  website: http://www.hhs.gov
+  
+  fastbook: [ "075" ]
+  omb_a11: "009"
+  nist_ciff: "7500"
+  frdotgov: "221"
+  
+  subunits:
+    acf:
+      type: OperatingDivision
+      name: Administration for Children and Families
+      abbreviation: ACF
+      website: http://www.acf.hhs.gov/
+      
+      fastbook: [ "075X1502", "075 1502", "075 1503", "075 1504", "075 1505", "075 1509", "075 1511", "075X1512", "075 1512", "075 1515", "075 1516", "075 1522", "075 1523", "075 1533", "075X1534", "075 1534", "075X1536", "075 1536", "075 1537", "075 1545", "075 1546", "075 1550",  "075 1552", "075X1553", "075 1553", "075 1558" ]
+      omb_a11: "009 70"
+      nist_ciff: "7590"
+      frdotgov: "49"
+    
+    acl:
+      type: OperatingDivision
+      name: Administration for Community Living
+      abbreviation: ACL
+      website: http://www.hhs.gov/acl/
+      
+      fastbook: [ "075X0142", "075 0142", "075 0143", "075X8510" ] # formerly the Administration on Aging
+      omb_a11: "009 75"
+      nist_ciff: "7545"
+      frdotgov: "8"
+      
+    ahrq:
+      type: OperatingDivision
+      name: Agency for Healthcare Research and Quality
+      abbreviation: AHRQ
+      website: http://www.ahrq.gov/
+      
+      fastbook: [ "075X1700", "075 1700", "075 1701", "075X8512" ]
+      omb_a11: "009 33"
+      nist_ciff: "7528"
+      frdotgov: "5"
+      
+    cdc:
+      type: OperatingDivision
+      name: Centers for Disease Control and Prevention
+      abbreviation: CDC
+      website: http://www.cdc.gov/
+      
+      fastbook: [ "075 0942", "075X0943", "075 0943", "075 0946", "075 0947", "075 0948", "075 0949", "075 0950", "075 0951", "075X0954", "075 0955", "075X0956", "075 0956", "075 0958", "075 0959", "075X4553", "075X5146", "075X8250" ]
+      omb_a11: "009 20"
+      nist_ciff: "7523"
+      frdotgov: "44"
+      
+    cms:
+      type: OperatingDivision
+      name: Center for Medicare & Medicaid Services
+      abbreviation: CMS
+      website: http://www.cms.gov/
+      
+      fastbook: [ "075X0118", "075 0118", "075X0509", "075 0509", "075X0510", "075 0510", "075X0511",  "075 0511", "075X0512", "075X0513", "075X0515", "075 0515", "075X0516", "075 0516", "075 0517", "075X0518", "075 0519", "075X0520", "075X0522", "075 0580", "075X0585", "075X4438", "075X5384", "075X5551", "075X6240", "075X8307", "075X8308", "75 8308" ]
+      omb_a11: "009 38"
+      nist_ciff: "7530"
+      frdotgov: "45"
+    
+    fda:
+      type: OperatingDivision
+      name: U.S. Food and Drug Administration
+      abbreviation: FDA
+      website: http://www.fda.gov/
+      
+      fastbook: [ "075X0600", "075 0600", "075X0601", "075 0601", "075X0603", "075X4309", "075X5148", "075X8247" ]
+      omb_a11: "009 10"
+      nist_ciff: "7524"
+      frdotgov: "199"
+      
+    hrsa:
+      type: OperatingDivision
+      name: Health Resources and Services Administration
+      abbreviation: HRSA
+      website: http://www.hrsa.gov/
+      
+      fastbook: [ "075X0320", "075 0321", "075X0330", "075 0340", "075X0343", "075X0350", "075 0350", "075 0351", "075X0352", "075 0352", "075 0353", "075 0354", "075 0356", "075 0357", "075 0358", "075 0359", "075X0360", "075 0360", "075 0361", "075X0365", "075X3903", "075X4305", "075X4442", "075X6087", "075X8249", "075X8254", "075X8889" ]
+      omb_a11: "009 15"
+      nist_ciff: "7526"
+      frdotgov: "222"
+      
+    nih:
+      type: OperatingDivision
+      name: National Institutes of Health
+      abbreviation: NIH
+      website: http://www.nih.gov/
+      
+      fastbook: [ "075 0818", "075 0819", "075X0838", "075 0838", "075 0839", "075 0840", "075 0842", "075 0843", "075 0844", "075 0845", "075 0846", "075 0847", "075X0848", "075 0848", "075 0851", "075 0852", "075X0862", "075 0862", "075 0863", "075 0871", "075 0872", "075 0873", "075 0874", "75 0875", "075 0883", "075 0884", "075X0885", "075 0885", "075 0886", "075 0887", "075 0888", "075 0889", "075 0890", "075 0891", "075 0892", "075 0894", "075 0896", "075 0897", "075 0898", "075 0899", "075 0900", "075 0901", "075 0902", "075 0903", "075 0904", "075 0905", "075 0906", "075 0907", "075 0909", "075 0910", "075 0911", "075X3966", "075 3966", "075X4554", "075X5145", "075X6079", "075X8248", "075X8253", "075X8888" ]
+      omb_a11: "009 25"
+      nist_ciff: "7529"
+      frdotgov: "353"
+      
+      subunits:
+        hd:nci:
+          name: National Cancer Institute
+          abbreviation: NCI
+          website: http://www.cancer.gov/
+          
+          fastbook: [ "075X0849", "075 0849","075 0850" ]
+        
+        hd:nida:
+          name: National Institute on Drug Abuse
+          abbreviation: NIDA
+          website: http://www.drugabuse.gov/
+          
+          fastbook: [ "075 0893", "075 0908" ]
+        
+        hd:nlm:
+          name: National Library of Medicine
+          abbreviation: NLM
+          website: http://www.nlm.nih.gov/
+          
+          fastbook: [ "075X0807", "075 0807", "075 0808" ]
+        
+    oig:
+      type: StaffDivision
+      name: Office of Inspector General
+      abbreviation: OIG
+      website: http://oig.hhs.gov/
+      
+      omb_a11: "009 92"
+      nist_ciff: "7504"
+      frdotgov: "245"
+      
+      
