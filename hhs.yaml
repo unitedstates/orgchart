@@ -1,5 +1,5 @@
 hhs:
-  name: Department of Health and Human Services
+  name: Department of Health & Human Services
   abbreviation: HHS
   website: http://www.hhs.gov
   
@@ -98,21 +98,21 @@ hhs:
       frdotgov: "353"
       
       subunits:
-        hd:nci:
+        nci:
           name: National Cancer Institute
           abbreviation: NCI
           website: http://www.cancer.gov/
           
           fastbook: [ "075X0849", "075 0849","075 0850" ]
         
-        hd:nida:
+        nida:
           name: National Institute on Drug Abuse
           abbreviation: NIDA
           website: http://www.drugabuse.gov/
           
           fastbook: [ "075 0893", "075 0908" ]
         
-        hd:nlm:
+        nlm:
           name: National Library of Medicine
           abbreviation: NLM
           website: http://www.nlm.nih.gov/
